@@ -4,8 +4,8 @@ All the generated images are being stored in a separate folder "generated"
 
 
 ## ImageFolder Class
-
- root
+```
+root
 ├── images
 |   ├── bodies
 │     ├── bodies_image1.png
@@ -14,3 +14,4 @@ All the generated images are being stored in a separate folder "generated"
 │     └── galaxies_image1.png
 │     └── galaxies_image2.png
 │     └── galaxies_image3.png
+```

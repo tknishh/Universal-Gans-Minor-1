@@ -6,8 +6,8 @@ from functools import partial
 from os import cpu_count
 import numpy as np
 
-DATA_DIR = "./data"
-OUTPUT_DIR = "./images"
+DATA_DIR = "./data/"
+OUTPUT_DIR = "./images/"
 
 def resize_image(image_name):
     image_path =  os.path.join(DATA_DIR, image_name)

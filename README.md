@@ -3,8 +3,12 @@
  
 ### Find how AI sees the universe!!
 
+
+
 ## WORKFLOW OF THE PROJECT (Current Progress) ~completed
 ![System Arch](https://github.com/tknishh/Universal-Gans-Minor-1/blob/main/presentation/report/System%20Architecture.png)
+
+
 
 ## Landing Page of Website
 ![HomePage](https://github.com/tknishh/Universal-Gans-Minor-1/blob/main/presentation/report/website.png)

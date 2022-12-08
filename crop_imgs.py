@@ -5,8 +5,8 @@ from tqdm import tqdm
 from functools import partial
 from os import cpu_count
 import numpy as np
-
-DATA_DIR = "./data/"
+            
+DATA_DIR = "./data/"    
 OUTPUT_DIR = "./images/"
 
 def resize_image(image_name):

@@ -5,8 +5,8 @@ body {
   background: black;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -30,11 +30,17 @@ canvas {
   width: 100%;
   height: 100%;
 }
+
 .image-container {
   text-align: center;
-  /* align-items: left; */
-  /* justify-content: center; */
 }
+
+.text-box{
+ margin-top: 22%;
+ margin-left: 35%;
+  align-items: center;
+}
+
 .text-box, .image-box {
   font-size: 60px;
   font-family: 'Raleway', sans-serif;
@@ -43,6 +49,7 @@ canvas {
   text-transform: uppercase;
   color:rgb(238, 238, 238);
   justify-content: center;
+  align-items: center;
 }
 #image {
   width: 196px;
@@ -133,6 +140,13 @@ canvas {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
   0 0 8px rgba(255, 255, 255, 0.6);
 }
+
+.image-box{
+  margin-top: 10%;
+  margin-left: 15%;
+
+}
+
 .grid-container {
   --l: calc(30vw/var(--n-cols));
   --hl: calc(.5*var(--l));
@@ -149,18 +163,51 @@ canvas {
   filter: drop-shadow(2px 2px 5px);
 }
 
+.button1 {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px;
+  max-height:2vh;
+  word-spacing: normal;
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: transparent;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.button1:hover {
+  color: black;
+  background: rgb(238, 238, 238);
+}
+
 .arrow{
   position: absolute;
   margin-top: 11%;
   margin-left: 27%;
-
 }
 
 .grid-img{
   position: absolute;
   margin-top: 5%;
   margin-left: 30.5%;
+  border: 2px solid white;
   
+}
+
+.arrow2{
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 47.7%;
+}
+
+.uni-img{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 51%;
+  border: 2px solid white;
 }
 
 

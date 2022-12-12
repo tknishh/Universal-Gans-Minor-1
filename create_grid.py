@@ -7,11 +7,11 @@ rows = int(sys.argv[2])
 cols = int(sys.argv[3])
 filenames = glob.glob(pattern)
 
-images = [Image.open(name).resize((224,224)) for name in filenames]
+images = [Image.open(name).resize((224, 224)) for name in filenames]
 
-newImage = Image.new('RGB', (cols*224, rows*224))
+new_image = Image.new('RGB', (cols*224, rows*224))
 
-i=0
+i = 0
 for y in range(rows):
     if i >= len(images):
         break
@@ -19,8 +19,8 @@ for y in range(rows):
     for x in range(cols):
         x *= 224
         img = images[i]
-        newImage.paste(img, (x,y,x+224, y+224))
-        print ('paste:',x,y)
+        new_image.paste(img, (x, y, x+224, y+224))
+        print('paste:', x, y)
         i += 1
 
-newImage.save('grid.png')
+new_image.save('output.jpg')

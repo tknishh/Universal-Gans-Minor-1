@@ -53,4 +53,5 @@ To try out out project, follow these steps:
 
 ## Landing Page of Website
 
-![HomePage](https://github.com/tknishh/Universal-Gans-Minor-1/blob/main/presentation/report/website.png)
+![image](https://user-images.githubusercontent.com/74897823/207018739-3c6ea92e-306c-4329-a51f-6f89390e599d.png)
+

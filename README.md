@@ -8,20 +8,21 @@ We have used this concept to visualize the universe.
 ## SYSTEM REQUIREMENTS
 To get started with development, you will need to install the following tools:
  1. Git
- Git version 2.13.1 or higher. Download git if you don't have it installed already.
+ 
+ `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it installed already.
+ 
  To check your version of git, run the following command:
-  git --version
+ ```shell
+ git --version
+ ```
   
  2. Python
-  Your system should have python version 16.15.1 or higher. Download node if you don't have it already.
+  Your system should have `python` version 16.15.1 or higher. Download python if you don't have it already.
   To check your version of node, run:
-   python --version
-   
-3. 
+  ```shell
+  python --version
+  ``` 
  
-
-
-
 ## WORKFLOW OF THE PROJECT (Current Progress) ~completed
 ![System Arch](https://github.com/tknishh/Universal-Gans-Minor-1/blob/main/presentation/report/System%20Architecture.png)
 
@@ -29,3 +30,6 @@ To get started with development, you will need to install the following tools:
 
 ## Landing Page of Website
 ![HomePage](https://github.com/tknishh/Universal-Gans-Minor-1/blob/main/presentation/report/website.png)
+
+
+

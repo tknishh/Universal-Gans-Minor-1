@@ -55,3 +55,6 @@ To try out out project, follow these steps:
 
 ![image](https://user-images.githubusercontent.com/74897823/207018739-3c6ea92e-306c-4329-a51f-6f89390e599d.png)
 
+### Visit the website:
+
+https://vaniseth.github.io/Universal-Gans-Minor-1/

@@ -2,6 +2,23 @@
  Sem 5 - Minor 1 - Projectno. 36 - JUET, Guna
  
 ### Find how AI sees the universe!!
+Today's AI is capable of creating new images by studying a database of existing ones.
+We have used this concept to visualize the universe. 
+
+## SYSTEM REQUIREMENTS
+To get started with development, you will need to install the following tools:
+ 1. Git
+ Git version 2.13.1 or higher. Download git if you don't have it installed already.
+ To check your version of git, run the following command:
+  git --version
+  
+ 2. Python
+  Your system should have python version 16.15.1 or higher. Download node if you don't have it already.
+  To check your version of node, run:
+   python --version
+   
+3. 
+ 
 
 
 

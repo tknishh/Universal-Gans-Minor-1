@@ -23,7 +23,7 @@ To get started with development, you will need to install the following tools:
 
 2. Python
 
-    Your system should have`python` version 16.15.1 or higher. Download [python](https://www.python.org/downloads/) if you don't have it already.
+    Your system should have`python` version 3.8.1 or higher. Download [python](https://www.python.org/downloads/) if you don't have it already.
 
     To check your version of python, run the following command:
 
